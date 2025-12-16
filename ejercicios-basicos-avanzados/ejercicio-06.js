@@ -21,5 +21,5 @@ console.log("");
 for (let j = 0; j <= 10; j++){
     if (j == 10){
         console.log("¡Dormido!");
-    } else console.log("Intentando dormir 🐑");
+    } else {console.log("Intentando dormir 🐑")};
 }
