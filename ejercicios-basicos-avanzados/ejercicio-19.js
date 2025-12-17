@@ -16,9 +16,9 @@ const toys = [
 
 const noGato = []
 
-for (const toy of toys){
-    if (!toy.name.includes('gato')){
-        noGato.push(toy);
+for (const i of toys){
+    if (!i.name.includes('gato')){
+        noGato.push(i);
     }
 }
 
