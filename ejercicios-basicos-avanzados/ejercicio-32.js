@@ -19,6 +19,7 @@ const xMen = [
 
 function findOldestXMen(xMen) {
   let masAntigua = xMen [0];
+
     for(const nombre of xMen){
         if (nombre.year < masAntigua.year){
             masAntigua = nombre;
@@ -28,3 +29,24 @@ function findOldestXMen(xMen) {
 }
 
 console.log(findOldestXMen(xMen));
+
+//Hay más de un personaje de ese año. Imprimiremos todos ellos reutilizando la función anterior
+
+
+function losMasAntiguos(xMen){
+    
+    const masAntigua = findOldestXMen(xMen);
+    const añoMasViejo = masAntigua.year; 
+    const listaConViejos = [];
+
+    for (const nombre of xMen){
+        if(nombre.year == añoMasViejo){
+            listaConViejos.push(nombre);
+        }
+    }
+    return listaConViejos;
+}
+
+console.log("");
+
+console.log(losMasAntiguos(xMen));
