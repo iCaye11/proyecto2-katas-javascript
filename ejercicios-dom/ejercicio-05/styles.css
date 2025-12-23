@@ -1,0 +1,39 @@
+
+body {
+    background-color: #eaeaea;
+    font-family: Arial, sans-serif;
+}
+
+
+.album-container {
+    max-width: 400px;       
+    margin: 50px auto;      
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+
+
+.album-title {
+    text-align:center;
+    margin: auto;
+}
+
+
+#album-list {
+    list-style-type: circle;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+}
+
+
+.album-item {
+    text-align: center;
+    padding: 4px;;
+    border-bottom: 1px solid #ddd;
+    list-style-type: none;
+}
+
